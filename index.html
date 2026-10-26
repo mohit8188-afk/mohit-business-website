@@ -10,113 +10,64 @@
   <meta property="og:description" content="Understand the process first. Build the right solution second. Practical consulting, CRM, workflow automation and business reporting.">
   <title>Mohit Sharma | Business Process &amp; Automation Consulting</title>
   <style>
-    :root{--ink:#142b27;--deep:#102b27;--green:#c8e6a0;--paper:#f7f8f4;--muted:#5f6e68;--line:#dfe5dd;--white:#fff;--soft:#edf1e9}
-    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}
-    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}
-    a{color:inherit}.wrap{width:min(1120px,calc(100% - 40px));margin-inline:auto}
-    header{position:sticky;top:0;z-index:5;background:rgba(247,248,244,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-    nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-    .brand{font-weight:800;letter-spacing:-.04em;text-decoration:none;font-size:1.1rem}.brand span{color:#477d60}
-    .navlinks{display:flex;align-items:center;gap:25px}.navlinks a{text-decoration:none;font-size:.92rem;color:#42534c}.navlinks a:hover{color:#1c6747}
-    .button{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 18px;border-radius:9px;background:var(--green);border:1px solid #b5d38b;color:#142b27;text-decoration:none;font-weight:750;font-size:.93rem;cursor:pointer;transition:transform .15s ease,filter .15s ease}
-    .button:hover{filter:brightness(.97);transform:translateY(-1px)}.button.dark{background:var(--deep);color:white;border-color:var(--deep)}
-    .hero{background:radial-gradient(circle at 82% 15%,#2b5548 0,transparent 34%),linear-gradient(130deg,#102b27,#183d32);color:white;padding:88px 0 82px}
-    .hero-grid{display:grid;grid-template-columns:1.35fr .85fr;align-items:center;gap:58px}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.75rem;font-weight:800;color:#c8e6a0}
-    h1{font-size:clamp(2.8rem,6.2vw,5.1rem);line-height:1.02;letter-spacing:-.065em;margin:20px 0 22px;max-width:780px}
-    .hero p{font-size:1.12rem;color:#d8e4dd;max-width:650px;margin:0 0 28px}.actions{display:flex;flex-wrap:wrap;gap:12px}
-    .button.outline{background:transparent;border-color:#829c8e;color:white}
-    .hero-visual{background:rgba(255,255,255,.06);border:1px solid rgba(215,229,220,.28);border-radius:22px;padding:26px;box-shadow:0 18px 55px rgba(0,0,0,.12)}
-    .visual-label{font-size:.76rem;text-transform:uppercase;letter-spacing:.12em;color:#c8e6a0;font-weight:800;margin-bottom:18px}
-    .workflow-card{background:#f7f8f4;color:var(--ink);border-radius:12px;padding:15px 16px;margin:10px 0;display:flex;align-items:center;gap:13px}
-    .workflow-icon{width:38px;height:38px;flex:0 0 38px;border-radius:10px;background:#e3edd8;color:#2d6446;display:grid;place-items:center;font-weight:850}
-    .workflow-card strong{display:block;font-size:.97rem}.workflow-card small{display:block;color:var(--muted);font-size:.82rem}
-    .visual-note{color:#d8e4dd;font-size:.84rem;margin:17px 0 0}
-    section{padding:76px 0}.section-head{max-width:700px;margin-bottom:32px}.section-kicker{font-size:.76rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:#477d60}
-    h2{font-size:clamp(2rem,4vw,3.05rem);line-height:1.1;letter-spacing:-.05em;margin:12px 0 14px}.section-head p{margin:0;color:var(--muted);font-size:1.03rem}
-    .audience{background:#fff}.audience-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
-    .audience-card{padding:26px;background:var(--soft);border-radius:16px}
-    .check-list{list-style:none;padding:0;margin:18px 0 0}.check-list li{padding:10px 0 10px 30px;position:relative;border-bottom:1px solid #d8e1d4}.check-list li:last-child{border-bottom:0}.check-list li:before{content:"✓";position:absolute;left:0;top:10px;color:#477d60;font-weight:900}
-    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{padding:24px;background:white;border:1px solid var(--line);border-radius:14px}
-    .card .num{font-size:.76rem;font-weight:800;letter-spacing:.12em;color:#4c8465}.card h3{margin:12px 0 8px;font-size:1.15rem;letter-spacing:-.02em}.card p{margin:0;color:var(--muted);font-size:.95rem}
-    .process{background:#edf1e9}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.step{border-top:2px solid #9fbd91;padding:18px 12px 0 0}
-    .step .number{font-weight:850;color:#477d60;font-size:.84rem}.step h3{margin:8px 0;font-size:1.08rem}.step p{margin:0;color:var(--muted);font-size:.94rem}
-    .principle{margin-top:28px;padding:20px 22px;border-left:4px solid #9fbd91;background:rgba(255,255,255,.65);color:#43564d;border-radius:0 10px 10px 0}
-    .faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.faq{padding:22px;background:white;border:1px solid var(--line);border-radius:12px}.faq h3{font-size:1rem;margin:0 0 8px}.faq p{font-size:.94rem;color:var(--muted);margin:0}
-    .connect-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:44px;align-items:start}.contact-panel{background:var(--deep);color:white;padding:30px;border-radius:16px}
-    .contact-panel p{color:#d4e1d9}.contact-panel a:not(.button){color:#d3edb4}form{background:white;border:1px solid var(--line);padding:26px;border-radius:16px}
-    .fields{display:grid;grid-template-columns:1fr 1fr;gap:16px}label{display:block;font-size:.88rem;font-weight:700;margin-bottom:6px}
+    .hero{background:radial-gradient(circle at 82% 15%,#2b5548 0,transparent 34%),linear-gradient(130deg,#102b27,#183d32);color:white;padding:72px 0}
+    .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:52px}
+    .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.75rem;font-weight:800;color:#c8e6a0}
+    h1{font-size:clamp(2.6rem,5.8vw,4.8rem);line-height:1.04;letter-spacing:-.06em;margin:18px 0 20px;max-width:680px}
+    .hero p{font-size:1.1rem;color:#d8e4dd;max-width:620px;margin:0 0 26px}
+    .actions{display:flex;flex-wrap:wrap;gap:12px}.button.outline{background:transparent;border-color:#829c8e;color:white}
+    .portrait-frame{max-width:420px;margin-left:auto;border:5px solid rgba(255,255,255,.12);border-radius:22px;overflow:hidden;box-shadow:0 22px 55px rgba(0,0,0,.25);background:#e8e7e5}
+    .portrait-frame img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;object-position:center 35%}
+    section{padding:58px 0}.section-head{max-width:700px;margin-bottom:26px}.section-kicker{font-size:.76rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:#477d60}
+    h2{font-size:clamp(1.8rem,3.8vw,2.7rem);line-height:1.1;letter-spacing:-.05em;margin:10px 0 12px}
+    .section-head p{margin:0;color:var(--muted);font-size:1.02rem}
+    .faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.faq{padding:20px;background:white;border:1px solid var(--line);border-radius:12px}.faq h3{font-size:1rem;margin:0 0 8px}.faq p{font-size:.94rem;color:var(--muted);margin:0}
+    .connect-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:28px;align-items:start}.contact-panel{background:var(--deep);color:white;padding:26px;border-radius:16px}
+    .contact-panel p{color:#d4e1d9}.contact-panel a:not(.button){color:#d3edb4}form{background:white;border:1px solid var(--line);padding:24px;border-radius:16px}
+    .fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}label{display:block;font-size:.88rem;font-weight:700;margin-bottom:6px}
     input,textarea{width:100%;font:inherit;padding:12px;border:1px solid #cfd8cf;border-radius:8px;background:#fff;color:var(--ink)}input:focus,textarea:focus,a:focus-visible,button:focus-visible{outline:3px solid #6c9b76;outline-offset:2px}
-    textarea{min-height:125px;resize:vertical}.field.full{grid-column:1/-1}.form-note{font-size:.82rem;color:var(--muted);margin:12px 0 0}
-    footer{padding:28px 0;background:#0b211d;color:#d3dfd8}.foot{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;font-size:.88rem}.foot a{color:#d3edb4}
-    @media(max-width:800px){.hero-grid,.connect-grid,.audience-grid{grid-template-columns:1fr}.hero{padding:68px 0}.hero-visual{max-width:540px}.services{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr);row-gap:28px}.navlinks{gap:14px}.navlinks a:not(.button){display:none}.faq-grid{grid-template-columns:1fr 1fr}}
-    @media(max-width:520px){.wrap{width:min(100% - 30px,1120px)}nav{min-height:64px}.navlinks .button{padding:10px 12px;font-size:.82rem}.hero{padding:56px 0}.hero-grid{gap:30px}.services,.steps,.fields,.faq-grid{grid-template-columns:1fr}.field.full{grid-column:auto}section{padding:58px 0}form,.contact-panel,.audience-card{padding:21px}.hero-visual{padding:18px}}
+    textarea{min-height:110px;resize:vertical}.field.full{grid-column:1/-1}.form-note{font-size:.82rem;color:var(--muted);margin:12px 0 0}
+    footer{padding:24px 0;background:#0b211d;color:#d3dfd8}.foot{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;font-size:.88rem}.foot a{color:#d3edb4}
+    @media(max-width:800px){.hero-grid,.connect-grid{grid-template-columns:1fr}.hero{padding:54px 0}.portrait-frame{margin:0;max-width:360px}.navlinks{gap:14px}.navlinks a:not(.button){display:none}}
+    @media(max-width:520px){.wrap{width:min(100% - 30px,1120px)}nav{min-height:64px}.navlinks .button{padding:10px 12px;font-size:.82rem}.hero{padding:46px 0}.hero-grid{gap:28px}.fields,.faq-grid{grid-template-columns:1fr}.field.full{grid-column:auto}section{padding:46px 0}form,.contact-panel{padding:20px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
   </style>
 </head>
+
 <body>
 <header><div class="wrap"><nav aria-label="Main navigation">
   <a class="brand" href="#top">Mohit <span>Sharma</span></a>
-  <div class="navlinks"><a href="#services">Services</a><a href="#approach">Approach</a><a href="#faq">FAQs</a><a class="button" href="#connect">Discuss your business ↗</a></div>
+  <div class="navlinks"><a href="#faq">FAQs</a><a class="button" href="#connect">Let's Connect ↗</a></div>
 </nav></div></header>
 <main>
   <section class="hero" id="top"><div class="wrap hero-grid"><div>
-    <div class="eyebrow">Business Process Consulting · Practical Automation</div>
-    <h1>Make everyday business work simpler.</h1>
-    <p>I help distributors, wholesalers and growing businesses understand operational bottlenecks, organise customer follow-ups, and improve reporting—with practical solutions designed around how the business actually works.</p>
-    <div class="actions"><a class="button" href="#connect">Discuss Your Business</a><a class="button outline" href="#services">Explore Services</a></div>
-  </div><div class="hero-visual" aria-label="Examples of business workflows that can be improved">
-    <div class="visual-label">A clearer way to work</div>
-    <div class="workflow-card"><div class="workflow-icon" aria-hidden="true">01</div><div><strong>Enquiries &amp; follow-ups</strong><small>Keep opportunities visible</small></div></div>
-    <div class="workflow-card"><div class="workflow-icon" aria-hidden="true">02</div><div><strong>Orders &amp; customer records</strong><small>Organise day-to-day workflows</small></div></div>
-    <div class="workflow-card"><div class="workflow-icon" aria-hidden="true">03</div><div><strong>Reports &amp; dashboards</strong><small>Make information easier to use</small></div></div>
-    <p class="visual-note">The starting point is always your current process—not a preselected tool.</p>
-  </div></div></section>
-
-  <section class="audience"><div class="wrap audience-grid">
-    <div class="section-head"><div class="section-kicker">Who I work with</div><h2>Built around real business operations.</h2><p>My initial focus is on distributors, wholesalers and small-to-growing businesses where teams coordinate customers, sales and reporting across several tools or manual processes.</p></div>
-    <div class="audience-card"><strong>We can explore questions such as:</strong><ul class="check-list"><li>How are new enquiries recorded and followed up?</li><li>How do teams track quotations, orders and pending actions?</li><li>Which repetitive tasks take time every week?</li><li>How easily can management see sales activity and performance?</li></ul></div>
-  </div></section>
-
-  <section id="services"><div class="wrap"><div class="section-head"><div class="section-kicker">Services</div><h2>Practical help for everyday business challenges.</h2><p>We first understand the requirement. The right answer may be a process improvement, a better system, automation, clearer reporting, or a combination.</p></div>
-    <div class="services">
-      <article class="card"><div class="num">01 / OPERATIONS</div><h3>Business Process Improvement</h3><p>Map the current way of working, identify bottlenecks and clarify the steps that need improvement.</p></article>
-      <article class="card"><div class="num">02 / WORKFLOWS</div><h3>Workflow Automation</h3><p>Reduce repetitive manual work with practical workflows that fit the team's real needs.</p></article>
-      <article class="card"><div class="num">03 / CUSTOMERS</div><h3>Lead &amp; CRM Management</h3><p>Improve visibility into enquiries, follow-ups, customer records and pending opportunities.</p></article>
-      <article class="card"><div class="num">04 / INSIGHTS</div><h3>Reporting &amp; Dashboards</h3><p>Make business information easier to review with useful reports, MIS and dashboards.</p></article>
-      <article class="card"><div class="num">05 / DIGITAL</div><h3>Websites &amp; Enquiry Workflows</h3><p>Help customers find your business and plan a sensible process for handling incoming enquiries.</p></article>
-      <article class="card"><div class="num">06 / AI</div><h3>AI-Assisted Solutions</h3><p>Explore appropriate AI uses where the benefits, reliability, privacy and ongoing costs make sense.</p></article>
-    </div>
-  </div></section>
-
-  <section class="process" id="approach"><div class="wrap"><div class="section-head"><div class="section-kicker">How we work</div><h2>Understand first. Propose second.</h2><p>No assumptions or one-size-fits-all packages. We discuss your needs before deciding what to build.</p></div>
-    <div class="steps"><div class="step"><div class="number">STEP 01</div><h3>Discovery</h3><p>Discuss your business, current process and desired outcomes.</p></div><div class="step"><div class="number">STEP 02</div><h3>Requirements</h3><p>Document priorities, users, existing tools and constraints.</p></div><div class="step"><div class="number">STEP 03</div><h3>Proposal</h3><p>Agree on a suitable approach, scope, timeline and quotation.</p></div><div class="step"><div class="number">STEP 04</div><h3>Implementation</h3><p>Begin only after the scope and commercial terms are approved.</p></div></div>
-    <div class="principle"><strong>Practical by design:</strong> I won't recommend a tool simply because it is new or popular. Any proposed solution should fit the business, be feasible to support, and have clear costs and responsibilities.</div>
-  </div></section>
-
-  <section id="faq"><div class="wrap"><div class="section-head"><div class="section-kicker">A few useful details</div><h2>Before we talk.</h2></div>
+    <div class="eyebrow">Business Automation · Ahmedabad</div>
+    <h1>Let’s make your business work simpler.</h1>
+    <p>I help businesses identify everyday bottlenecks and explore practical automation that saves time, improves follow-ups and makes work easier to manage.</p>
+    <div class="actions"><a class="button" href="#connect">Discuss Your Business</a><a class="button outline" href="#faq">Read FAQs</a></div>
+  </div><div class="portrait-frame"><img src="profile.jpg" alt="Mohit Sharma, Business Automation Consultant" width="600" height="596"></div></div></section>
+  <section id="faq"><div class="wrap"><div class="section-head"><div class="section-kicker">FAQs</div><h2>A few things you may want to know.</h2></div>
     <div class="faq-grid">
-      <article class="faq"><h3>Do you offer fixed packages?</h3><p>No fixed package is assumed upfront. The scope and quote are prepared after we understand your requirements.</p></article>
-      <article class="faq"><h3>Do I need to know which technology I want?</h3><p>No. We start with the business process and desired outcome, then assess suitable options.</p></article>
-      <article class="faq"><h3>What happens in the first conversation?</h3><p>We discuss how the work is done today, what you want to improve and whether a follow-up requirements discussion makes sense.</p></article>
-      <article class="faq"><h3>When does implementation start?</h3><p>Only after the scope, quotation and payment terms have been agreed in writing.</p></article>
+      <article class="faq"><h3>What kind of business problems can we discuss?</h3><p>Enquiry follow-ups, customer records, repetitive tasks, order workflows, reporting and other day-to-day operational challenges.</p></article>
+      <article class="faq"><h3>Do I need to know which technology I want?</h3><p>No. We start with your current process and the outcome you want. Then we explore suitable options.</p></article>
+      <article class="faq"><h3>Do you offer fixed packages?</h3><p>Not at this stage. I first understand the requirement, then suggest a suitable scope and quotation.</p></article>
+      <article class="faq"><h3>When does implementation begin?</h3><p>Only after the scope, quotation, timeline and payment terms are agreed in writing.</p></article>
     </div>
   </div></section>
-
-  <section id="connect"><div class="wrap"><div class="section-head"><div class="section-kicker">Start a conversation</div><h2>What would you like your business to do better?</h2><p>Share a short overview of your business and the process you want to improve.</p></div>
-    <div class="connect-grid"><div class="contact-panel"><h3>Let's discuss your business.</h3><p>A short introductory conversation can help establish whether your current process, reporting or customer workflow is a good fit for further exploration.</p><p><strong>Email</strong><br><a href="mailto:mohit@mohitsharma.click">mohit@mohitsharma.click</a></p><p><strong>Meeting</strong><br>Appointment scheduling will be added in a later setup step.</p><a class="button" href="mailto:mohit@mohitsharma.click?subject=Business%20Process%20Discussion">Email me directly ↗</a></div>
+  <section id="connect"><div class="wrap"><div class="section-head"><div class="section-kicker">Get in touch</div><h2>Tell me what you’d like to improve.</h2><p>Share a few details and I’ll get back to you to discuss the next step.</p></div>
+    <div class="connect-grid"><div class="contact-panel"><h3>Let’s connect.</h3><p>Start with a brief conversation about your business and the challenge you want to solve.</p><p><strong>Email</strong><br><a href="mailto:mohit@mohitsharma.click">mohit@mohitsharma.click</a></p><a class="button" href="mailto:mohit@mohitsharma.click?subject=Business%20Automation%20Discussion">Email me directly ↗</a></div>
       <form id="enquiry-form"><div class="fields">
         <div class="field"><label for="name">Your name *</label><input id="name" name="name" required autocomplete="name"></div>
         <div class="field"><label for="business">Business name</label><input id="business" name="business" autocomplete="organization"></div>
         <div class="field"><label for="email">Work email *</label><input id="email" name="email" type="email" required autocomplete="email"></div>
         <div class="field"><label for="phone">Phone (optional)</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
-        <div class="field full"><label for="challenge">What would you like to improve? *</label><textarea id="challenge" name="challenge" required placeholder="For example, enquiry follow-ups, order tracking or management reporting..."></textarea></div>
-        <div class="field full"><label for="details">Additional details (optional)</label><textarea id="details" name="details" placeholder="Anything else that would help explain your requirement?"></textarea></div>
-        <div class="field full"><button class="button dark" type="submit">Prepare enquiry email ↗</button><p class="form-note">This form opens a pre-filled email in your email app. It does not submit information to or store it on this website. A direct enquiry-handling workflow will be configured separately.</p></div>
+        <div class="field full"><label for="challenge">What would you like to improve? *</label><textarea id="challenge" name="challenge" required placeholder="A few words about your business challenge..."></textarea></div>
+        <div class="field full"><button class="button dark" type="submit">Prepare enquiry email ↗</button><p class="form-note">For this initial version, the form opens a pre-filled email in your email app. It does not store or send information directly to this website.</p></div>
       </div></form>
     </div>
   </div></section>
 </main>
-<footer><div class="wrap foot"><span>© <span id="year"></span> Mohit Sharma · Business Process &amp; Automation Consulting</span><a href="#top">Back to top ↑</a></div></footer>
+<footer><div class="wrap foot"><span>© <span id="year"></span> Mohit Sharma · Business Automation</span><a href="#top">Back to top ↑</a></div></footer>
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
   document.getElementById('enquiry-form').addEventListener('submit', function(e) {
@@ -130,11 +81,8 @@
       'Phone: ' + (data.get('phone') || 'Not provided'),
       '',
       'Challenge / requirements:',
-      data.get('challenge'),
-      '',
-      'Additional details:',
-      data.get('details') || 'Not provided'
-    ].join('\n');
+      data.get('challenge')
+    ].join('\\n');
     window.location.href = 'mailto:mohit@mohitsharma.click?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
   });
 </script>
