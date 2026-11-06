@@ -1,23 +1,29 @@
-# Mohit Sharma — Business Consulting Website
+# Mohit Sharma — Business Process Improvement & AI Automation
 
-A responsive, single-page static website for business consulting and practical automation.
+One-page, mobile-responsive, static website for owner-managed businesses in Ahmedabad.
 
-## Sections
-- Hero: “Let's Make Your Business Work Smarter.”
-- Five services: Business Process Improvement, Workflow Automation, Lead & CRM Management, Reporting & Dashboards, and AI-Powered Business Solutions
-- Four-step process: Discovery → Requirements → Proposal → Implementation after approval
-- Contact email: mohit@mohitsharma.click
-- Enquiry form that opens a pre-filled email in the visitor's email app
-- Mobile-responsive layout
+## Offer
+- Sell practical business outcomes rather than a particular ERP or AI tool.
+- Free introductory discovery call (approximately 20 minutes).
+- Process analysis, tailored proposal, implementation and optional ongoing support.
+- No public price list: scope and commercial terms are agreed for each engagement.
 
-## Run locally
-Open `index.html` in a browser. No build step, framework, or package installation is required.
+## Page
+- Hero with a clear appointment request CTA
+- Short 3-step process
+- FAQs
+- Discovery call enquiry form and direct email fallback
 
-## Before launch
-- Replace the professional-photo placeholder with Mohit's approved photo.
-- Configure Google Calendar appointment scheduling and add the booking link.
-- Decide whether to connect the enquiry form to a backend service. At present it uses `mailto:` and does not store submissions.
-- Preview the page on mobile and desktop before publishing.
+## Contact behaviour
+The current enquiry form opens an email draft addressed to `mohit@mohitsharma.click`; visitors must **send the draft** using their email application. The site does not save enquiries or automatically book appointments. Verify email delivery before campaigns. Replace the mailto flow with the Google Calendar appointment scheduling URL and/or a backed enquiry form when available.
 
-## Hosting
-This is a static website and can be deployed to a static hosting provider. Do not add private keys, passwords, or other secrets to this repository.
+## Deployment
+This is a plain `index.html` site with no build dependencies. It deploys automatically from the GitHub `main` branch through the existing Vercel `mohit-business-website` project.
+
+Custom domain: `mohitsharma.click` (and `www` redirect) are already added to the Vercel project. DNS is currently flagged as misconfigured because the external DNS records point away from Vercel. Update **only the relevant web DNS records** in the authoritative DNS provider, preserving MX/TXT and all other email or service records. Re-check domain settings and HTTPS after propagation.
+
+## Next operational steps
+1. Test delivery to `mohit@mohitsharma.click` from a separate mailbox.
+2. Add a genuine Google Calendar appointment booking page.
+3. Replace the email-draft enquiry method with secure direct submission only when a trusted backend and spam protection are configured.
+4. Confirm live desktop/mobile accessibility and consent/privacy wording before outreach.
