@@ -12,8 +12,9 @@ A one-page responsive website for a discovery-led, tailored B2B digital services
 - AI tools support our internal work, but a human reviews feasibility, proposals and deliverables.
 
 ## Site
-- Owner-led discovery CTA: “Request a free introductory discussion”
-- Three illustrative service areas
+- Concrete hero: enquiry follow-ups, reporting, repetitive work; realistic illustrative follow-up board (not a real customer or case study)
+- Three visually illustrated example scenarios with problem → potential deliverable: sales follow-ups, Excel/MIS, and repetitive office work
+- Owner-led discovery CTA: “Tell us what is slowing you down”
 - Three-step process: understand → research/propose → agree/deliver/review
 - Six FAQs
 - Enquiry form creates an email draft; visitor must send it from their own email client.
