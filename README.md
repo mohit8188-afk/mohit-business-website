@@ -1,29 +1,26 @@
-# Mohit Sharma — Business Process Improvement & AI Automation
+# Mohit Sharma — B2B Prospect Research & Lead Qualification
 
-One-page, mobile-responsive, static website for owner-managed businesses in Ahmedabad.
+Static, mobile-responsive website for targeted B2B company research: manufacturers, distributors, industrial suppliers, wholesalers and B2B professional-service providers.
 
 ## Offer
-- Sell practical business outcomes rather than a particular ERP or AI tool.
-- Free introductory discovery call (approximately 20 minutes).
-- Process analysis, tailored proposal, implementation and optional ongoing support.
-- No public price list: scope and commercial terms are agreed for each engagement.
+- Per **accepted researched company lead**; quote is agreed based on target market, required fields, volume and verification depth. No public flat rate and no required monthly retainer.
+- Research-qualified means matches agreed ICP criteria with source evidence; it does **not** mean buying intent, a verified personal email, a meeting or a sale.
+- A typical record includes business name, website, geography, industry, relevant offering, fit rationale, supporting URLs and a public business contact route when found.
+- Sales outreach, meeting setting and closing are outside the initial service.
+- Duplicates and off-target entries handled according to pre-agreed acceptance/correction rules.
 
 ## Page
-- Hero with a clear appointment request CTA
-- Short 3-step process
-- FAQs
-- Discovery call enquiry form and direct email fallback
+- Industry-focused hero and per-lead CTA
+- Deliverables, research process, FAQs
+- Simple enquiry form with optional target geography and quantity
+- Existing contact address: `mohit@mohitsharma.click`
 
-## Contact behaviour
-The current enquiry form opens an email draft addressed to `mohit@mohitsharma.click`; visitors must **send the draft** using their email application. The site does not save enquiries or automatically book appointments. Verify email delivery before campaigns. Replace the mailto flow with the Google Calendar appointment scheduling URL and/or a backed enquiry form when available.
+## Contact behavior
+The form generates an email draft on the visitor's device; the visitor must press **Send**. No backend, form storage, direct submission, automated booking, CRM intake or automated outreach.
 
-## Deployment
-This is a plain `index.html` site with no build dependencies. It deploys automatically from the GitHub `main` branch through the existing Vercel `mohit-business-website` project.
+## Hosting and restrictions
+GitHub `main` deploys through the existing Vercel `mohit-business-website` project. Canonical domain `https://business.mohitsharma.click/`.
+This content update does not authorize real-client processing or outreach, production agent activation, or paid APIs. G2 remains restricted; G3 remains closed.
 
-Custom domain: `mohitsharma.click` (and `www` redirect) are already added to the Vercel project. DNS is currently flagged as misconfigured because the external DNS records point away from Vercel. Update **only the relevant web DNS records** in the authoritative DNS provider, preserving MX/TXT and all other email or service records. Re-check domain settings and HTTPS after propagation.
-
-## Next operational steps
-1. Test delivery to `mohit@mohitsharma.click` from a separate mailbox.
-2. Add a genuine Google Calendar appointment booking page.
-3. Replace the email-draft enquiry method with secure direct submission only when a trusted backend and spam protection are configured.
-4. Confirm live desktop/mobile accessibility and consent/privacy wording before outreach.
+## Checks before commercial use
+Verify live desktop/mobile rendering, email send/delivery, lead definition, sample QA and client-work approvals. Preserve MX/TXT and other email/DNS settings.
