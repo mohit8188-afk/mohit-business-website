@@ -1,26 +1,30 @@
-# Mohit Sharma — B2B Prospect Research & Lead Qualification
+# Mohit Sharma — Business Improvement & Digital Services
 
-Static, mobile-responsive website for targeted B2B company research: manufacturers, distributors, industrial suppliers, wholesalers and B2B professional-service providers.
+A one-page responsive website for a discovery-led, tailored B2B digital services company.
 
-## Offer
-- Per **accepted researched company lead**; quote is agreed based on target market, required fields, volume and verification depth. No public flat rate and no required monthly retainer.
-- Research-qualified means matches agreed ICP criteria with source evidence; it does **not** mean buying intent, a verified personal email, a meeting or a sale.
-- A typical record includes business name, website, geography, industry, relevant offering, fit rationale, supporting URLs and a public business contact route when found.
-- Sales outreach, meeting setting and closing are outside the initial service.
-- Duplicates and off-target entries handled according to pre-agreed acceptance/correction rules.
+## Current commercial positioning (15 Nov 2026)
+- Work with owners and authorized decision-makers to understand operational and digital challenges.
+- Propose scoped, feasible improvements only after requirements and necessary research.
+- Examples for assessment: sales/enquiry operations, quotation and follow-up processes, Excel/Sheets/MIS reporting, workflow automation/integration, business websites and small internal tools.
+- These are **possible service areas, not promises that every implementation is ready or appropriate**.
+- No standard package or fixed public price; projects may be one-time, recurring, or implementation plus support. Detailed audits can be paid even when introductory conversation is free.
+- The client must accept a documented scope, pricing, responsibilities, limitations and acceptance criteria before any work.
+- AI tools support our internal work, but a human reviews feasibility, proposals and deliverables.
 
-## Page
-- Industry-focused hero and per-lead CTA
-- Deliverables, research process, FAQs
-- Simple enquiry form with optional target geography and quantity
-- Existing contact address: `mohit@mohitsharma.click`
+## Site
+- Owner-led discovery CTA: “Request a free introductory discussion”
+- Three illustrative service areas
+- Three-step process: understand → research/propose → agree/deliver/review
+- Six FAQs
+- Enquiry form creates an email draft; visitor must send it from their own email client.
 
-## Contact behavior
-The form generates an email draft on the visitor's device; the visitor must press **Send**. No backend, form storage, direct submission, automated booking, CRM intake or automated outreach.
+## Contact limitation
+The form opens `mailto:mohit@mohitsharma.click` with the entered details. It **does not** automatically submit, store leads, schedule appointments, process real-client data in Hermes/Paperclip or initiate outreach. Verify email delivery and mobile/desktop mailto behavior before relying on it.
 
-## Hosting and restrictions
-GitHub `main` deploys through the existing Vercel `mohit-business-website` project. Canonical domain `https://business.mohitsharma.click/`.
-This content update does not authorize real-client processing or outreach, production agent activation, or paid APIs. G2 remains restricted; G3 remains closed.
+## Deployment
+Plain `index.html`; no build dependencies. Main branch of `mohit8188-afk/mohit-business-website` is connected to Vercel project `mohit-business-website`.
+Canonical URL: `https://business.mohitsharma.click/`. Preserve all DNS, MX, TXT and Gmail settings.
 
-## Checks before commercial use
-Verify live desktop/mobile rendering, email send/delivery, lead definition, sample QA and client-work approvals. Preserve MX/TXT and other email/DNS settings.
+## Governance
+Notion commercial source of truth: `https://app.notion.com/p/41895bad0ab38160a341d085b7ab2322`.
+This website/content update does not change company acceptance (16/22), G2 restricted internal preparation, G3 closed outreach, paused agents, or paid API limits. No live agent intake, unsolicited communications, client project provisioning or promises of capabilities without separate verification and authorization.
