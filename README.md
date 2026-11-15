@@ -11,6 +11,13 @@ A one-page responsive website for a discovery-led, tailored B2B digital services
 - The client must accept a documented scope, pricing, responsibilities, limitations and acceptance criteria before any work.
 - AI tools support our internal work, but a human reviews feasibility, proposals and deliverables.
 
+## Founder and WhatsApp contact
+- Homepage states founder-reported 15+ years in sales, operations and consulting. This is not a verified third-party testimonial.
+- Dedicated WhatsApp links: `https://wa.me/919662097395?text=Hello%2C%20I%27d%20like%20to%20discuss%20a%20business%20challenge.` (client opens a draft; website does not send messages).
+- Number is intentionally public per site owner's request. It does not enable AI telephony or automations.
+- Temporary initials card is in `#founder`. Authentic photograph NOT yet supplied, so do not substitute a generated/fake portrait. Replace initials with a locally hosted, optimized, descriptive image when the owner provides one.
+- User confirmed email enquiry form opens a prewritten Gmail draft; actual email send/delivery not independently verified.
+
 ## Site
 - Concrete hero: enquiry follow-ups, reporting, repetitive work; realistic illustrative follow-up board (not a real customer or case study)
 - Three visually illustrated example scenarios with problem → potential deliverable: sales follow-ups, Excel/MIS, and repetitive office work
