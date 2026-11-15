@@ -18,6 +18,12 @@ A one-page responsive website for a discovery-led, tailored B2B digital services
 - The `#founder` section now uses the **owner-approved generated professional portrait**, optimized to 320×400 WebP and self-hosted in `assets/founder-portrait.webp`. The generated portrait was created from an owner-provided photograph; it is a professionally edited illustration of the founder, not a claim of an original camera capture.
 - User confirmed email enquiry form opens a prewritten Gmail draft; actual email send/delivery not independently verified.
 
+## Google Calendar discovery booking
+- Public booking page supplied by the owner: `https://calendar.app.google/RFU6Mi4aBXKB36rT9`
+- A 30-minute introductory Google Meet scheduling option is linked from the navigation, hero and contact section.
+- Booking is handled **by Google Calendar** (owned by the business Google account configured by the owner), not by the website, Hermes or Paperclip. The owner must test availability, form, Google Meet link and invitation/reminders separately. This link was not independently fetchable via the tool environment.
+- Existing WhatsApp and Gmail mailto contact choices remain available and unchanged. No automatically synchronized meeting tracker is claimed.
+
 ## Site
 - Concrete hero: enquiry follow-ups, reporting, repetitive work; realistic illustrative follow-up board (not a real customer or case study)
 - Three visually illustrated example scenarios with problem → potential deliverable: sales follow-ups, Excel/MIS, and repetitive office work
