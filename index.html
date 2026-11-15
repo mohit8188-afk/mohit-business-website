@@ -156,6 +156,28 @@
     @media(max-width:970px){.story-cards{grid-template-columns:1fr 1fr}.story-preview{max-width:570px}.hero-grid{grid-template-columns:1fr}}
     @media(max-width:650px){.hero h1{font-size:clamp(2.6rem,10.5vw,3.55rem)}.story-cards{grid-template-columns:1fr}.story-preview{padding:17px}.story-art{min-height:125px}.story-footer .btn{width:100%}}
 
+
+    /* Founder credibility and direct WhatsApp contact */
+    .experience-mark{display:inline-flex;align-items:center;gap:10px;background:#e7f1df;border:1px solid #c8dec8;border-radius:100px;padding:9px 14px;color:#214b37;font-size:.84rem;font-weight:750;margin-top:19px}
+    .experience-mark strong{font-size:1.05rem}
+    .founder-section{background:#edf3e9}
+    .founder-layout{display:grid;grid-template-columns:minmax(210px,.55fr) minmax(0,1.45fr);gap:40px;align-items:center;max-width:850px;margin-inline:auto}
+    .founder-visual{aspect-ratio:4/4.5;border-radius:23px;background:linear-gradient(140deg,#164736,#387c60);display:grid;place-items:center;overflow:hidden;border:5px solid #fff;box-shadow:0 14px 30px rgba(19,56,47,.1)}
+    .founder-monogram{font-size:clamp(4rem,9vw,7rem);font-weight:850;letter-spacing:-.09em;color:#d1ed91}
+    .founder-layout h2{margin-top:10px}
+    .founder-layout p{color:var(--muted);margin:12px 0 0}
+    .founder-layout strong{color:var(--deep)}
+    .founder-role{font-size:.89rem;font-weight:750;color:#2b6849!important;margin:0 0 14px!important}
+    .founder-actions{margin-top:20px;display:flex;gap:12px;flex-wrap:wrap}
+    .wa-contact{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-weight:750;text-decoration:none;color:#fff;background:#226a4e;border-radius:10px;padding:13px 18px;transition:background .2s}
+    .wa-contact:hover{background:#164c37}
+    .wa-contact svg{flex:none}
+    .wa-float{position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom, 0px));z-index:21;display:inline-flex;align-items:center;gap:10px;background:#236e4b;color:#fff;text-decoration:none;border-radius:50px;padding:13px 18px;box-shadow:0 12px 34px rgba(18,56,47,.25);font-size:.86rem;font-weight:780}
+    .wa-float:hover{background:#19583c}
+    .wa-float svg{display:block;flex:none}
+    .wa-float:focus-visible,.wa-contact:focus-visible{outline:3px solid #91cb77;outline-offset:4px}
+    @media(max-width:650px){.founder-layout{grid-template-columns:1fr;gap:22px}.founder-visual{max-width:210px;width:100%;aspect-ratio:1;border-radius:50%;margin-inline:auto}.founder-layout h2{font-size:2rem}.wa-float{padding:12px 14px;right:13px;bottom:calc(13px + env(safe-area-inset-bottom, 0px))}.wa-float span{font-size:.8rem}body{padding-bottom:32px}}
+
   </style>
 </head>
 <body>
@@ -182,6 +204,7 @@
           <a class="btn ghost" href="#services">See three example scenarios</a>
         </div>
         <p class="micro"><strong>No fixed packages.</strong> One-time improvements or ongoing support, scoped and priced after discussion.</p>
+        <div class="experience-mark"><strong>15+ years</strong> in sales, operations &amp; consulting</div>
         <div class="hero-foot"><span>Enquiry &amp; follow-up tracking</span><span>Excel &amp; MIS reports</span><span>Workflow improvements</span></div>
       </div>
       <div class="story-preview" aria-label="Illustrative example of organizing customer enquiries into a follow-up tracker">
@@ -253,6 +276,22 @@
       <div class="story-footer"><p><strong>Have a different problem?</strong> These aren't fixed packages. We'll first understand your actual workflow and check what is feasible.</p><a class="btn ghost" href="#connect">Discuss my business challenge <span aria-hidden="true">↗</span></a></div>
     </div>
   </section>
+  <section class="content founder-section" id="founder">
+    <div class="wrap founder-layout">
+      <div class="founder-visual">
+        <!-- Replace this initials panel with the owner's authentic portrait when a photo is supplied. -->
+        <span class="founder-monogram" aria-label="MS initials">MS</span>
+      </div>
+      <div>
+        <div class="kicker">A person behind the service</div>
+        <h2>Work directly with someone who understands business operations.</h2>
+        <p class="founder-role">Mohit Sharma · Sales, Operations &amp; Consulting</p>
+        <p><strong>15+ years of professional experience</strong> across sales, business operations and consulting. We start by listening to your challenges, then explore practical and realistic solutions rather than pushing a standard software package.</p>
+        <p>You speak to a person who reviews the scope, coordinates the proposed work and stays accountable for communication.</p>
+        <div class="founder-actions"><a class="btn dark" href="#connect">Discuss a business challenge <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </div>
+  </section>
   <section class="content" id="approach">
     <div class="wrap">
       <div class="section-head"><div class="kicker">From discussion to delivery</div><h2>We listen. We propose. You decide.</h2><p>We do not sell a preset tool or package. Your requirements come first, and you approve the price and scope before implementation starts.</p></div>
@@ -282,6 +321,8 @@
         <div class="kicker">Start with the business problem</div>
         <h2>Tell us what is slowing you down.</h2>
         <p>Missed follow-ups? Complicated reporting? Repetitive office work? Or something else entirely? Share your challenge and we can explore the practical next step.</p>
+        <a class="wa-contact" href="https://wa.me/919662097395?text=Hello%2C%20I%27d%20like%20to%20discuss%20a%20business%20challenge." target="_blank" rel="noopener noreferrer" aria-label="Open WhatsApp chat with Mohit Sharma (message not sent automatically)"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11.5a8.4 8.4 0 0 1-11.7 7.7L4 20l.9-4A8.4 8.4 0 1 1 20 11.5Z"/><path d="m9 8 1 2-1 1c1 2 2 3 4 4l1-1 2 1"/></svg> Chat on WhatsApp</a>
+        <p class="small">WhatsApp: +91 96620 97395</p>
         <p class="small">Prefer email? <a href="mailto:mohit@mohitsharma.click?subject=Business%20discovery%20enquiry">mohit@mohitsharma.click</a></p>
       </div>
       <div class="contact-form">
@@ -302,6 +343,7 @@
     </div>
   </section>
 </main>
+<a class="wa-float" href="https://wa.me/919662097395?text=Hello%2C%20I%27d%20like%20to%20discuss%20a%20business%20challenge." target="_blank" rel="noopener noreferrer" aria-label="Open WhatsApp chat; you choose when to send"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11.5a8.4 8.4 0 0 1-11.7 7.7L4 20l.9-4A8.4 8.4 0 1 1 20 11.5Z"/><path d="m9 8 1 2-1 1c1 2 2 3 4 4l1-1 2 1"/></svg><span>WhatsApp</span></a>
 <footer><div class="wrap foot"><span>© <span id="year">2026</span> Mohit Sharma · Business Improvement &amp; Digital Services</span><a href="#top">Back to top ↑</a></div></footer>
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
